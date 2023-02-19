@@ -11,8 +11,13 @@ public class Taksimetre {
 		double perkm=2.20,total=10;
 		
 		total+=km*perkm;
-		System.out.println("Toplam Ödenecek Tutar = "+total);
-		
+		if (total<20) {
+			System.out.println("Toplam Ödenecek Tutar = 20TL");
+		}
+		else {
+			System.out.println("Toplam Ödenecek Tutar = "+total+"TL");
+	
+		}		
 		
 	}
 
