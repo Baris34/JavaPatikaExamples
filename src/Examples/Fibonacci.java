@@ -8,7 +8,7 @@ public class Fibonacci {
 			temp=fib+fib1;
 			fib=fib1;
 			fib1=temp;
-			System.out.println(fib1);
+			System.out.print(fib1+" ");
 		}
 	}
 
